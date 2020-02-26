@@ -1,7 +1,7 @@
 
  const projectId = 'hardy-unison-268916';
  const location = 'us-central1';
- const modelId = 'ICN6313813581108346880';
+ const modelId = 'ICN2445742669708656640';
  const filePath = "C:\\Users\\Supun\\Desktop\\images.jpg";
 
  const express = require('express')
@@ -26,7 +26,7 @@
   app.use(bodyParser.urlencoded({}));
 
   app.listen(port, function(){
-    console.log('Snake Machine Running on port ' + port)
+    console.log('\nSnake Machine Running on port ' + port + '\n\nMachine Learning Model for Identification of venomous snakes in Sri Lanka... \nCreated by supun manathunga \n\n')
   })
 
 // Imports the Google Cloud AutoML library
